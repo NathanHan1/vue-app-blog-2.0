@@ -9,9 +9,10 @@ module.exports = {
         //打包文件输出的路径
         path: path.resolve(__dirname, './www/dist'),
         //打包文件的名称
-        filename: 'all.js'
+        filename: 'all.js',
         //这是对webpack-dev-server的配置，是一个虚拟路径
         // publicPath:"public" //这是对webpack-dev-server的配置，配置虚拟路径
+        // assetsPublicPath:''
     },
     //自动监听
     watch: true,

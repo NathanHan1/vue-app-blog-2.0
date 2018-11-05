@@ -154,7 +154,7 @@ export default {
     height: 1400px;
     width: 100%;
     padding-top: 100px;
-    background: url('/app/components/Article/house.jpg');
+    background: url('http://hanzhibang.cn/blog/app/components/Article/house.jpg');
     background-size: 100%;
     .wrapArticle {
         .write-enter-active,

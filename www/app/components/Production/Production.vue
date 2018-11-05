@@ -21,7 +21,7 @@ export default {
     data() {
         return {
             modal1: false,
-            imgUrl: '/app/components/Production',
+            imgUrl: 'http://hanzhibang.cn/blog/app/components/Production',
             items: [
                 { title: `食谱指南`, desc: '微信小程序项目', name: 'cook.jpg' },
                 { title: `仿知乎日报`, desc: '基于react的DVA框架构建的新闻类项目', name: 'zhihu.jpg' },

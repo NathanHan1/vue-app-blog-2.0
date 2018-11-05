@@ -39,14 +39,14 @@
             <div class="serverWrap">
                 <transition name="nodejs-slide">
                     <div class="nodejs" v-show="serverShow">
-                        <img src="/blog/app/components/Home/nodejs1.jpg" width="150px" alt="">
+                        <img src="http://hanzhibang.cn/blog/app/components/Home/nodejs1.jpg" width="150px" alt="">
                         <p>NODEJS强力驱动</p>
                     </div>
                 </transition>
                 <h1>与</h1>
                 <transition name="mongodb-slide">
                     <div class="mongodb" v-show="serverShow">
-                        <img src="/blog/app/components/Home/mongodb.jpg" width="150px" alt="">
+                        <img src="http://hanzhibang.cn/blog/app/components/Home/mongodb.jpg" width="150px" alt="">
                         <p>MongoDB高效读写</p>
                     </div>
                 </transition>
@@ -56,7 +56,7 @@
         <section class="browser">
             <div class="browserWrap">
                 <transition name="vue-slide">
-                    <img v-show="browserShow" src="/blog/app/components/Home/vue.png" width="150px" alt="">
+                    <img v-show="browserShow" src="http://hanzhibang.cn/blog/app/components/Home/vue.png" width="150px" alt="">
                 </transition>
                 <transition name="vueInfo-slide">
                     <p v-show="browserShow">基于VueJS + Vuex + Vue-Router + iView + 富文本编辑器的 <span style="color: #ccc;font-weight:bold">单页面应用</span></p>
@@ -73,7 +73,7 @@ import { Tooltip } from 'iview';
 export default {
     data() {
         return {
-            imgUrl: '/blog/app/components/Home/banner1.jpg',
+            imgUrl: 'http://hanzhibang.cn/blog/app/components/Home/banner1.jpg',
             infoShow: false,
             serverShow: false,
             browserShow: false,
