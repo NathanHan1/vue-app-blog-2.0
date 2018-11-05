@@ -15,7 +15,7 @@ module.exports = {
     },
     //自动监听
     watch: true,
-    mode: 'production',
+    mode: 'development',
     //配置webpack的模块插件
     module: {
         // 关于模块配置

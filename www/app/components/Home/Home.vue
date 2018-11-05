@@ -68,6 +68,8 @@
 </template>
 
 <script>
+import { Tooltip } from 'iview';
+
 export default {
     data() {
         return {
@@ -101,6 +103,9 @@ export default {
     },
     activated() {
         this.infoShow = this.firstLoaded && true;
+    },
+    components:{
+        Tooltip
     }
 };
 </script>

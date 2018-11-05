@@ -34,7 +34,7 @@
 import E from 'wangeditor';
 import axios from 'axios';
 import Back from '../../base/Back/Back.vue';
-import { Modal } from 'iview';
+import { Modal,Button,Input } from 'iview';
 
 export default {
     data() {
@@ -144,7 +144,9 @@ export default {
     },
     components: {
         Back,
-        Modal
+        Modal,
+        Button,
+        Input
     }
 };
 </script>

@@ -50,7 +50,7 @@ export default {
                 if (valid) {
                     axios({
                         method: 'post',
-                        url: '/account',
+                        url: '/blog/account',
                         headers: { 'Content-type': 'application/json' },
                         data: {
                             user: this.formInline.user,

@@ -19,13 +19,20 @@
                 <Tooltip content="WeChat: 354172676">
                     <i class="iconfont icon-weixin"></i>
                 </Tooltip>
+                 
             </div>
         </div>
     </div>
 </template>
 
 <script>
-export default {};
+import { Tooltip } from 'iview';
+
+export default {
+    components:{
+        Tooltip
+    }
+};
 </script>
 
 <style lang="less" scoped>
